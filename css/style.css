@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background:url(../img/fondo.png) no-repeat; 
+    background-size: 100%;
+    
+}
+
+.rectangulo {
+    height: 400px;
+    width: 400px;
+    margin-top: 160px;
+    margin-left: 375px;
+    background: rgba(162, 162, 162, 0.514);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    }
+
+.logocontainer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    left: 300px;
+    border-radius: 50%;
+    background: #ffffff;
+    text-align: center;
+}
+
+.containerdatos{
+    display: flex;
+    justify-content: center;
+  
+}
+
+
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
